@@ -1,1 +1,32 @@
- 
+*{
+    font-family:'Helvetica Neue';
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin: 19px 31px;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+.nav .item{
+    display: flex;
+    list-style-type: none;
+    left: 0 !important;
+}
+ul{
+    padding: 0 !important;
+}
+.nav-item{
+    align-content: center;
+    padding: 8px 16px;
+}
+.form-group {
+    display: flex;
+    top: 0 !important;
+}
+
+
